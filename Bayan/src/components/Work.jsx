@@ -13,21 +13,21 @@ import ProjectCard from "./ProjectCard";
 const works = [
   {
     imgSrc: '/images/project-1.jpg',
-    title: 'Full stack music app',
-    tags: ['API', 'MVC', 'Development'],
-    projectLink: 'https://musify-5al0.onrender.com/'
+    title: 'Planteer',
+    tags: ['Development'],
+    projectLink: 'https://github.com/Bayanalharbi1/LAB-ORM-PLANTEER'
   },
   {
     imgSrc: '/images/project-2.jpg',
-    title: 'Free stock photo app',
-    tags: ['API', 'SPA'],
-    projectLink: 'https://pixstock-official.vercel.app/'
+    title: 'Volunteer app',
+    tags: ['Non-Profit', 'Web Development'],
+    projectLink: 'https://github.com/Bayanalharbi1/Volunteer_Platform'
   },
   {
     imgSrc: '/images/project-3.jpg',
-    title: 'Recipe app',
-    tags: ['Development', 'API'],
-    projectLink: ''
+    title: 'ShowRoom ',
+    tags: ['Development', 'Branding'],
+    projectLink: 'https://github.com/Bayanalharbi1/SHOWROOM'
   },
   {
     imgSrc: '/images/project-4.jpg',
@@ -37,16 +37,11 @@ const works = [
   },
   {
     imgSrc: '/images/project-5.jpg',
-    title: 'eCommerce website',
-    tags: ['eCommerce', 'Development'],
-    projectLink: 'https://github.com/codewithsadee/anon-ecommerce-website'
+    title: 'Portfolio website',
+    tags: ['Technology', 'Development'],
+    projectLink: 'https://github.com/Bayanalharbi1/Volunteer_Platform'
   },
-  {
-    imgSrc: '/images/project-6.jpg',
-    title: 'vCard Personal portfolio',
-    tags: ['Web-design', 'Development'],
-    projectLink: 'https://github.com/codewithsadee/vcard-personal-portfolio'
-  },
+ 
 ];
 
 

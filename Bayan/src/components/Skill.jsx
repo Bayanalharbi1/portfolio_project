@@ -12,6 +12,16 @@ import SkillCard from "./SkillCard";
 
 const skillItem = [
   {
+    imgSrc: '/images/django.svg',
+    label: 'Django',
+    desc: 'Web Framework'
+  },
+  {
+    imgSrc: '/images/html.svg',
+    label: 'HTML',
+    desc: 'Web Framework'
+  },
+  {
     imgSrc: '/images/figma.svg',
     label: 'Figma',
     desc: 'Design tool'

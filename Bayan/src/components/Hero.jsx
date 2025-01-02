@@ -43,17 +43,19 @@ const Hero = () => {
           </h2>
 
           <div className="flex items-center gap-3">
-            <ButtonPrimary
-              label="Download CV"
-              icon="download"
-            />
+    <a href="/images/BAYAN_ALHARBI_CV%20(1).pdf" download>
+        <ButtonPrimary
+            label="Download CV"
+            icon="download"
+        />
+    </a>
 
-            <ButtonOutline
-              href="#about"
-              label="Scroll down"
-              icon="arrow_downward"
-            />
-          </div>
+    <ButtonOutline
+        href="#about"
+        label="Scroll down"
+        icon="arrow_downward"
+    />
+</div>
         </div>
 
         <div className="hidden lg:block">
