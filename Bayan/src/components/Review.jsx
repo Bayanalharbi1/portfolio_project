@@ -25,32 +25,26 @@ const reviews = [
   {
     content: 'Exceptional web development! Delivered a seamless, responsive site with clean code and great UX.',
     name: 'Sara Al-Rashid',
-    company: 'PixelForge'
   },
   {
     content: 'Impressive work! Fast loading times, intuitive design, and flawless backend integration. Highly recommend.',
     name: 'Fahad Al-Zahrani',
-    company: 'NexaWave'
   },
   {
     content: 'Outstanding developer! Built a robust site with perfect functionality. Efficient and detail-oriented.',
     name: 'Sultan Al-Mansour',
-    company: 'CodeCraft'
   },
   {
     content: 'Creative and skilled! Produced a modern, user-friendly site that exceeded expectations. Great communication.',
     name: 'Omar Al-Omari',
-    company: 'BrightWeb'
   },
   {
     content: 'Professional work! Delivered on time, with a polished design and smooth user experience. Top-notch developer.',
     name: 'Aisha Al-Saud',
-    company: 'TechMosaic'
   },
   {
     content: 'Excellent project execution! High-quality code, responsive design, and exceptional problem-solving skills.',
     name: 'Noura Al-Juhani',
-    company: 'Skyline Digital'
   }
 ];
 
@@ -81,11 +75,10 @@ const Review = () => {
         </h2>
 
         <div className="scrub-slide flex items-stretch gap-3 w-fit">
-          {reviews.map(({ content, name,company }, key) => (
+          {reviews.map(({ content, name}, key) => (
             <ReviewCard
               key={key}
               name={name}
-              company={company}
               content={content}
             />
           ))}
